@@ -1,5 +1,11 @@
 # Gurobi 与数学建模从入门到放弃
 
+介于毕业论文的需求，迫不得已学习 gurobi 和数学建模。
+
+准备记录从入门到放弃的全过程……
+
+
+
 ## level 0： 学会安装、配置操作环境
 ### 直接使用 python 安装
 以 macOS 为例
@@ -53,7 +59,7 @@ conda config --add channels https://conda.anaconda.org/gurobi
 
 ```
 conda install gurobi
-``` 
+```
 
 
 查看已经安装的扩展包
@@ -66,15 +72,3 @@ conda list
 from gurobipy import *
 ```
 
-## level 1： 小试牛刀
-
-
-
-
-请听题
-已知：
-```
-x + 2y + 3z <= 4
-x + y >= 1
-```
-求： x + y + 2z 的最大值

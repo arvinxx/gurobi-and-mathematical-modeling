@@ -10,7 +10,7 @@
 
 
 import gurobipy as gp
-from gurobipy import GRB
+from gurobipy import GRB, GurobiError
 
 try:
     # 创建模型
@@ -30,13 +30,17 @@ try:
     m.addConstr(x + 2 * y + 3 * z <= 4, "c0")
     # x + y >= 1
     m.addConstr(x + y >= 1, "c1")
-    m.write('math.lp')
+
+    # 输出 lp 专用文件格式
+    m.write('simple.lp')
+
+    # 优化求解
     m.optimize()
 
     # 输出结果
     print("最大值: %g" % m.objVal)
     for v in m.getVars():
-        print("%s: %g" % (v.varName, v.x))
+        print(f"{v.varName}：{v.x}")
 
 
 except GurobiError as e:
