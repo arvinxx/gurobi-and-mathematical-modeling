@@ -17,21 +17,35 @@
 优化模型。此外，他们还解释了更高级的功能，例如广义约束，分段线性函数，多目标分层优化以及“典型”类型的约束，例如“分配” 约束”，“平衡约束”，“排序约束”，“优先约束”等。此外，这些 建模示例说明了如何在不同的情况下使用 Gurobi
 的建模对象和典型约束类型上下文。
 
-## 建模实例目录
+## 目录
+
+### 介绍
+
+- [Intro to Mathematical Optimization Modeling](https://github.com/Gurobi/modeling-examples/tree/master/intro_to_modeling)
+
+### 初级
 
 - [Cell Tower](https://github.com/Gurobi/modeling-examples/tree/master/cell_tower_coverage)
 - [Facility Location](https://github.com/Gurobi/modeling-examples/tree/master/facility_location)
 - [Offshore Wind Farming](https://github.com/Gurobi/modeling-examples/tree/master/offshore_wind_farming)
+
+### 中级
+
 - [Customer Assignment](https://github.com/Gurobi/modeling-examples/tree/master/customer_assignment)
-- [Factory Planning](https://github.com/Gurobi/modeling-examples/tree/master/factory_planning_1_2)
-- [Food Manufacturing](https://github.com/Gurobi/modeling-examples/tree/master/food_manufacturing_1_2)
+- [Factory Planning](https://github.com/Gurobi/modeling-examples/tree/master/factory_planning_1_)
+- [Food Manufacturing 1](https://github.com/Gurobi/modeling-examples/tree/master/food_manufacturing_1)
 - [Mining](https://github.com/Gurobi/modeling-examples/tree/master/mining)
 - [Refinery](https://github.com/Gurobi/modeling-examples/tree/master/refinery)
 - [Best Feature Selection for Forecasting](https://github.com/Gurobi/modeling-examples/tree/master/linear_regression)
+
+### 高级
+
 - [Farm Planning](https://github.com/Gurobi/modeling-examples/tree/master/farm_planning)
+- [Food Manufacturing 2](https://github.com/Gurobi/modeling-examples/tree/master/food_manufacturing_1)
 - [Manpower Planning](https://github.com/Gurobi/modeling-examples/tree/master/manpower_planning)
 - [Standard Pooling](https://github.com/Gurobi/modeling-examples/tree/master/pooling)
 - [Traveling Salesman](https://github.com/Gurobi/modeling-examples/tree/master/traveling_salesman)
-- [Intro to Mathematical Optimization Modeling](https://github.com/Gurobi/modeling-examples/tree/master/intro_to_modeling)
 
-这些模型案例采用的协议为 Apache 2.0 license,(c) Copyright 2019 Gurobi Optimization, LLC
+本目录下的文件采用的协议为 Apache 2.0 license,版权归 Gurobi 所有
+
+(c) Copyright 2019 Gurobi Optimization, LLC
