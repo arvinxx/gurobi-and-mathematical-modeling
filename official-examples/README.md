@@ -1,24 +1,23 @@
-# Gurobi modeling examples
+# Gurobi建模实例
 
-## Introduction: 
+## 介绍
 
-### Target audience:
-Data scientists, engineers, computer scientists, economists, and in general, professionals with background on mathematical modeling and basic knowledge of Python.
+### 目标受众
 
-### Goals of modeling examples:
-+ Illustrate  broad applicability of mathematical optimization.
-+ Show how to build mathematical optimization models.
+数据科学家，工程师，计算机科学家，经济学家，以及通常具有以下背景的专业人员 Pytho n的数学建模和基础知识。
 
-Modeling examples are coded using the Gurobi Python API in Jupyter Notebook.
+### 建模实例的目标
 
-The modeling examples illustrate important features of the Gurobi Python API modeling objects such as adding decision 
-variables, building linear expressions, adding constraints, and adding an objective function for a mathematical optimization 
-model. In addition, they explain more advanced features such as generalized constraints, piece-wise linear functions, 
-multi-objective hierarchical optimization, as well as “typical” type of constraints such as “allocation constraints”, 
-“balance constraints”, “sequencing constraints”, “precedence constraints”, etc. In addition, these modeling examples 
-show how the modeling objects of Gurobi and the typical type of constraints can be used in different contexts.
+- 说明了数学优化的广泛适用性。
+- 展示如何建立数学优化模型。
 
-## Index of modeling examples
+建模示例使用 Jupyter Notebook 中的 Gurobi Python API 进行编码。
+
+建模示例说明了Gurobi Python API建模对象的重要功能，例如添加决策变量，建立线性表达式，添加约束以及为数学添加目标函数
+优化模型。此外，他们还解释了更高级的功能，例如广义约束，分段线性函数，多目标分层优化以及“典型”类型的约束，例如“分配” 约束”，“平衡约束”，“排序约束”，“优先约束”等。此外，这些 建模示例说明了如何在不同的情况下使用 Gurobi
+的建模对象和典型约束类型上下文。
+
+## 建模实例目录
 
 - [Cell Tower](https://github.com/Gurobi/modeling-examples/tree/master/cell_tower_coverage)
 - [Facility Location](https://github.com/Gurobi/modeling-examples/tree/master/facility_location)
@@ -35,5 +34,4 @@ show how the modeling objects of Gurobi and the typical type of constraints can 
 - [Traveling Salesman](https://github.com/Gurobi/modeling-examples/tree/master/traveling_salesman)
 - [Intro to Mathematical Optimization Modeling](https://github.com/Gurobi/modeling-examples/tree/master/intro_to_modeling)
 
-
-These modeling examples are distributed under the Apache 2.0 license, (c) copyright 2019 Gurobi Optimization, LLC
+这些模型案例采用的协议为 Apache 2.0 license,(c) Copyright 2019 Gurobi Optimization, LLC

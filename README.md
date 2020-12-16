@@ -4,10 +4,10 @@
 
 准备记录从入门到放弃的全过程……
 
-
-
 ## level 0： 学会安装、配置操作环境
+
 ### 直接使用 python 安装
+
 以 macOS 为例
 
 首先去官网下载安装包：➡️ [传送门](https://www.gurobi.com/downloads/)
@@ -20,6 +20,7 @@ $ bash-3.2$ python setup.py install
 ```
 
 注意事项：如果使用的是 Pycharm 等存在虚拟环境的 IDE，那么安装时必须要使用虚拟环境中的 python 才能安装成功。
+
 ```bash
 (venv) bash-3.2$ which python
 /Users/username/project/venv/bin/python
@@ -28,6 +29,7 @@ $ bash-3.2$ python setup.py install
 ```
 
 命令行有如下提示，则算表明成功了：
+
 ```bash
 running install
 running build
@@ -49,8 +51,8 @@ removing /Library/gurobi910/mac64/build
 
 ### 使用 Anaconda 作为环境
 
-
 添加 Gurobi 安装路径
+
 ```bash
 conda config --add channels https://conda.anaconda.org/gurobi
 ```
@@ -61,14 +63,16 @@ conda config --add channels https://conda.anaconda.org/gurobi
 conda install gurobi
 ```
 
-
 查看已经安装的扩展包
+
 ```
 conda list
 ```
 
 以上则是两种 gurobi 的安装方法。安装成功后，就可以使用 gurobipy 导入 gurobi 模块了
+
 ```python
 from gurobipy import *
 ```
 
+## 从入门到高阶教程参考 official-examples 目录
