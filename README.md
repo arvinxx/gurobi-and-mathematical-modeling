@@ -75,4 +75,4 @@ conda list
 from gurobipy import *
 ```
 
-## 从入门到高阶教程参考 official-examples 目录
+## 更多教程请参阅我翻译的 [Gurobi 官方教程](https://github.com/arvinxx/gurobi-official-examples)
