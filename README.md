@@ -1,8 +1,11 @@
+
 # Gurobi 与数学建模从入门到放弃
 
 介于毕业论文的需求，迫不得已学习 gurobi 和数学建模。
 
 准备记录从入门到放弃的全过程……
+
+**重点： 完整学习请参阅本人翻译（ing）的 [Gurobi 官方数学建模案例集](https://github.com/arvinxx/gurobi-official-examples) ，本仓库不再更新。**
 
 ## level 0： 学会安装、配置操作环境
 
@@ -74,5 +77,3 @@ conda list
 ```python
 from gurobipy import *
 ```
-
-## 从入门到高阶教程参考 official-examples 目录
